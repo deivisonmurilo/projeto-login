@@ -28,6 +28,9 @@ section#login{
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
 
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+
 }
 section#login > div#imagem{
     display: block;
@@ -36,7 +39,7 @@ section#login > div#imagem{
     background-position: left bottom;
     height: 250px;
 }
-section#login > div#fomrulario{
+section#login > div#formulario{
     display: block;
     padding: 10px;
 }
